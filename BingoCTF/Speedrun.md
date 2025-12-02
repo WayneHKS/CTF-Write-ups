@@ -15,11 +15,19 @@
 
 ---
 
-Based on the question description, I am looking for “footage” containing coordinates of the minecraft stronghold uploaded by @Cofastic.  
+For someone who has exprience playing Minecraft, this challenge seems pretty easy and stright forward to me. Based on the question description, I need to search for “footage”s containing coordinates of the minecraft stronghold uploaded by @Cofastic.  
 
-This is a very simple search for a video uploaded online. Hence, I started my search on common video uploading sites like YouTube, Twitch, etc…  
+To start off my search, I went on common video uploading sites like YouTube, Twitch and even Tiktok, the user cofastic does exist but I couldn't find any Minecraft videos. 
 
-Going through these websites, I ended up on the Internet Archives and searched for the user "Cofastic" with its advance search function. Eventually found two Minecraft videos uploaded by Cofastic on the Internet Archive.  
+</div>
+<div align="center">
+<img src="assets/Speedrun/Archives.png" 
+     alt="Ccalculate coordinates using online tool" 
+     style="display: block; margin: 0 auto;" 
+/>
+</div>
+
+After searching online for a while, I ended up on the Internet Archives. And with a simple searched for the user "Cofastic", I found two Minecraft videos uploaded by Cofastic on the Internet Archive.  
 
 </div>
 <div align="center">
@@ -29,7 +37,9 @@ Going through these websites, I ended up on the Internet Archives and searched f
 />
 </div>
 
-Inside these two videos, I can see the player throwing an “Eye of Ender” at two different coordinates.  
+Inside these two videos, I can see the player throwing an “Eye of Ender” (An item when thrown will fly towards the Stronghold). In addition, the coordinate of the player when throwing the "Eye of Ender" in the two videos are different.  
+
+Looking at the left side of the video, the X and Z coordinates, and the direction the player is facing can be seen.
 
 <div align="center">
 <img src="./assets/Speedrun/Location1.png" 
@@ -49,14 +59,15 @@ Inside these two videos, I can see the player throwing an “Eye of Ender” at 
  
 - **Location 2:** X = 350.362, Z = -0.261, Yaw = -116.6 degree  
 
+After obtaining the X and Z coordinates, and Yaw (Angle facing). With these information two lines can be graphed out and the intersect will be the coordinate of the stronghold!
+
+To do this quickly, I decided to use a stronghold calculator tool online to calculate quickly calculate the exact location.  
 <div align="center">
 <img src="./assets/Speedrun/StrongholdCalculator.png" 
      alt="Question Description" 
      style="display: block; margin: 0 auto;" 
 />
 </div>
-
-After obtaining the coordinates, and Yew. Use a stronghold calculator online to calculate the exact location.  
 
 <div align="center">
 <img src="./assets/Speedrun/CalculatedCoordinates.png" 
@@ -74,6 +85,6 @@ The final location is (1880, -766).
 />
 </div>
 
-With that I found the flag to be `BINGOCTF{1880_-766}`
+With that I found the flag to be `BINGOCTF{1880_-766}`, :D
 
 </div>
